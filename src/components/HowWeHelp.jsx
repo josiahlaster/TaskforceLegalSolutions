@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './HowWeHelp.css'
+import image1Img from '../assets/image1.png'
+import image2Img from '../assets/Image20241230131559.png'
+import headshotImg from '../assets/headshot.jpg'
 
 export default function HowWeHelp() {
   const [activeTab, setActiveTab] = useState('attorneys')
@@ -64,7 +67,7 @@ export default function HowWeHelp() {
             {activeTab === 'attorneys' ? (
               <div className="how-tab-panel">
                 <div className="how-tab-image">
-                  <img src="assets/image1.png" alt="Attorney Services" />
+                  <img src={image1Img} alt="Attorney Services" />
                 </div>
                 <div className="how-tab-text">
                   <h3>Services for Attorneys</h3>
@@ -100,7 +103,7 @@ export default function HowWeHelp() {
             ) : (
               <div className="how-tab-panel">
                 <div className="how-tab-image">
-                  <img src="assets/Image20241230131559.png" alt="Individual Services" />
+                  <img src={image2Img} alt="Individual Services" />
                 </div>
                 <div className="how-tab-text">
                   <h3>Services for Individuals</h3>
@@ -140,7 +143,7 @@ export default function HowWeHelp() {
         {/* Team Member */}
         <div className="team-member-card">
           <div className="team-member-img">
-            <img src="assets/headshot.jpg" alt="Tina Marie Harvey" />
+            <img src={headshotImg} alt="Tina Marie Harvey" />
           </div>
           <div className="team-member-info">
             <blockquote>

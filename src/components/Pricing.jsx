@@ -1,4 +1,9 @@
 import './Pricing.css'
+import fiy1Img from '../assets/fiy1.png'
+import fiy2Img from '../assets/fiy2.png'
+import fiy3Img from '../assets/fiy3.png'
+import fiy4Img from '../assets/fiy4.png'
+import pricingPlanIcon from '../assets/Pricing_Plan_Icon-removebg-preview.png'
 
 const attorneyPlans = [
   {
@@ -67,7 +72,7 @@ const fiyPlans = [
     id: 'thrive',
     title: 'Thrive Service',
     subtitle: 'Bankruptcy',
-    icon: '/assets/fiy1.png',
+    icon: fiy1Img,
     items: [
       'Comprehensive document preparation and organization for bankruptcy filing.',
       'Assistance with bankruptcy forms and schedules.',
@@ -79,7 +84,7 @@ const fiyPlans = [
     id: 'transitions',
     title: 'Transitions Service',
     subtitle: 'Family',
-    icon: '/assets/fiy2.png',
+    icon: fiy2Img,
     items: [
       'Preparation and filing of divorce, custody, or child support documents.',
       'Drafting agreements and parenting plans.',
@@ -91,7 +96,7 @@ const fiyPlans = [
     id: 'triumph',
     title: 'Triumph Service',
     subtitle: 'Traffic',
-    icon: '/assets/fiy3.png',
+    icon: fiy3Img,
     items: [
       'Research and guidance for resolving traffic violations or tickets.',
       'Preparation of court responses or defense documents.',
@@ -103,7 +108,7 @@ const fiyPlans = [
     id: 'topnotch',
     title: 'Top Notch Service',
     subtitle: 'Custom',
-    icon: '/assets/fiy4.png',
+    icon: fiy4Img,
     items: [
       'Case law and statutory analysis using advanced legal databases.',
       'Custom legal memoranda for specific issues or cases.',
@@ -125,7 +130,7 @@ export default function Pricing() {
           <h2 className="pricing-heading">Attorney Pricing Plans</h2>
           <div className="section-divider center"></div>
           <img
-            src="assets/Pricing_Plan_Icon-removebg-preview.png"
+            src={pricingPlanIcon}
             alt="Pricing"
             className="pricing-icon-top"
           />

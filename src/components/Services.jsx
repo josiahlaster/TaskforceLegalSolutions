@@ -1,11 +1,20 @@
 import { useState } from 'react'
 import './Services.css'
+import icon1Img from '../assets/icon1.png'
+import icon2Img from '../assets/icon2.png'
+import icon3Img from '../assets/icon3.png'
+import icon4Img from '../assets/icon4.png'
+import icon5Img from '../assets/icon5_1.png'
+import icon6Img from '../assets/icon6.png'
+import icon7Img from '../assets/icon7.png'
+import icon8Img from '../assets/icon8.png'
+import attorneySupervisionImg from '../assets/LOJ-AI-Supervision.jpg'
 
 const practiceAreas = [
   {
     id: 'bankruptcy',
     title: 'Bankruptcy Law',
-    icon: '/assets/icon1.png',
+    icon: icon1Img,
     items: [
       '341 meeting preparation',
       'Bankruptcy petition preparation',
@@ -19,7 +28,7 @@ const practiceAreas = [
   {
     id: 'criminal',
     title: 'Criminal Defense',
-    icon: '/assets/icon2.png',
+    icon: icon2Img,
     items: [
       'Conduct legal research',
       'Coordinate court preparations',
@@ -33,7 +42,7 @@ const practiceAreas = [
   {
     id: 'family',
     title: 'Family Law',
-    icon: '/assets/icon3.png',
+    icon: icon3Img,
     items: [
       'Child support calculations',
       'Custody agreement drafting',
@@ -49,7 +58,7 @@ const practiceAreas = [
   {
     id: 'injury',
     title: 'Personal Injury',
-    icon: '/assets/icon4.png',
+    icon: icon4Img,
     items: [
       'Client and third-party communication',
       'Drafting estate planning documents',
@@ -63,7 +72,7 @@ const practiceAreas = [
   {
     id: 'corporate',
     title: 'Corporate Law',
-    icon: '/assets/icon5_1.png',
+    icon: icon5Img,
     items: [
       'Compliance filings preparation',
       'Contract drafting and review',
@@ -77,7 +86,7 @@ const practiceAreas = [
   {
     id: 'employment',
     title: 'Employment Law',
-    icon: '/assets/icon6.png',
+    icon: icon6Img,
     items: [
       'Assist with EEOC filings',
       'Conduct legal research',
@@ -91,7 +100,7 @@ const practiceAreas = [
   {
     id: 'research',
     title: 'Legal Research',
-    icon: '/assets/icon7.png',
+    icon: icon7Img,
     items: [
       'Case law analysis (Westlaw)',
       'Citation table creation',
@@ -108,7 +117,7 @@ const practiceAreas = [
   {
     id: 'realestate',
     title: 'Real Estate Law',
-    icon: '/assets/icon8.png',
+    icon: icon8Img,
     items: [
       'Closing package coordination',
       'Deed and affidavit preparation',
@@ -168,7 +177,7 @@ export default function Services() {
         {/* Attorney Supervision Banner */}
         <div className="attorney-supervision" id="docs">
           <div className="attorney-supervision-images">
-            <img src="assets/LOJ-AI-Supervision.jpg" alt="Attorney Supervision" />
+            <img src={attorneySupervisionImg} alt="Attorney Supervision" />
           </div>
           <div className="attorney-supervision-text">
             <div className="section-label">Professional Oversight</div>

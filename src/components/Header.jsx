@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logoImg from '../assets/999-removebg-preview.png'
 import './Header.css'
 
 export default function Header() {
@@ -46,7 +47,7 @@ export default function Header() {
       <div className="header-main">
         <div className="container header-main-inner">
           <Link to="/" className="site-logo">
-            <img src="assets/999-removebg-preview.png" alt="Task Force Legal Solutions Logo" />
+            <img src={logoImg} alt="Task Force Legal Solutions Logo" />
             <div className="logo-text">
               <span className="logo-name">Task Force</span>
               <span className="logo-sub">Legal Solutions</span>

@@ -13,6 +13,24 @@
   inset: 0;
   overflow: hidden;
   z-index: 0;
+  background-color: var(--primary-dark);
+}
+
+.hero-video-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary-dark);
+  z-index: 2;
+  animation: fadeOutCover 1s ease 2.5s forwards;
+  pointer-events: none;
+}
+
+@keyframes fadeOutCover {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .hero-video {
@@ -25,14 +43,6 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1.15);
   pointer-events: none;
-  opacity: 0;
-  animation: fadeInVideo 1.5s ease 2.5s forwards;
-}
-
-@keyframes fadeInVideo {
-  to {
-    opacity: 1;
-  }
 }
 
 .hero-video-overlay {

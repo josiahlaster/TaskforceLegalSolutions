@@ -1,4 +1,5 @@
 import './About.css'
+import aboutImg from '../assets/image.png'
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
         <div className="about-image-col">
           <div className="about-img-stack">
             <img
-              src="assets/image.png"
+              src={aboutImg}
               alt="Task Force Legal Solutions"
               className="about-img-main"
             />
