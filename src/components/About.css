@@ -1,6 +1,6 @@
 /* ===== ABOUT ===== */
 .about-section {
-  padding: 6rem 0;
+  padding: 8rem 0 6rem 0;
   background: var(--primary-dark);
   position: relative;
   overflow: hidden;
@@ -143,6 +143,10 @@
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
+  .about-section {
+    padding-top: 14rem;
+  }
+
   .about-inner {
     grid-template-columns: 1fr;
     gap: 3rem;

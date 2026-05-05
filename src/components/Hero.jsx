@@ -6,33 +6,17 @@ export default function Hero() {
       {/* Video background placeholder - user will provide video later */}
       <div className="hero-video-wrapper">
         <div className="hero-video-overlay" />
-        <video
+        <iframe
           className="hero-video"
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="/assets/Image20241230131559.png"
-        >
-          {/* Hero video will be placed here: /assets/hero.mp4 */}
-          <source src="/assets/hero.mp4" type="video/mp4" />
-        </video>
+          src="https://www.youtube.com/embed/xcna6GdgOGc?controls=0&rel=0&playsinline=1&cc_load_policy=0&enablejsapi=1&origin=https%3A%2F%2Ftaskforcelegalsolutions.com&autoplay=1&mute=1&loop=1&playlist=xcna6GdgOGc&modestbranding=1&disablekb=1&iv_load_policy=3&showinfo=0&fs=0"
+          title="Task Force Legal Solutions"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
 
-      <div className="hero-content container">
-        <div className="hero-text">
-          <div className="hero-tagline">Task Force Legal Solutions</div>
-          <h1 className="hero-heading">
-            EMPOWERING LAW FIRMS<br />AND INDIVIDUALS
-          </h1>
-          <p className="hero-subheading">
-            Customized Legal Support and Expert Document Services
-          </p>
-          <a href="#support" className="btn btn-gold hero-cta">
-            OUR SERVICES
-          </a>
-        </div>
-      </div>
+
 
       {/* Feature Cards Row */}
       <div className="hero-cards-row">

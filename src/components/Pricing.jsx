@@ -57,11 +57,7 @@ const attorneyPlans = [
       'Dedicated paralegal support for ongoing case management and project continuity.',
       'Drafting and review of complex legal documents, including motions, briefs, and contracts.',
       'Assistance with e-discovery, document production, and trial preparation.',
-      'Coordination of case schedules, deadlines, and filings.',
-      'Virtual meeting support, including note-taking and presentation preparation.',
-      'Priority response with guaranteed same-day turnaround for urgent tasks.',
-      'Hourly rate adjusted based on caseload volume and the scope of services required.',
-      'Ideal for attorneys and firms managing fluctuating or high-volume workloads.',
+      'And More...',
     ],
   },
 ]
@@ -114,8 +110,7 @@ const fiyPlans = [
       'Chronological timelines and summaries for medical records in litigation.',
       'Identification of inconsistencies or key evidence in medical documentation.',
       'Drafting personalized documents for unique legal matters.',
-      'Assistance with compliance, administrative filings, and niche legal needs.',
-      'Flexible support tailored to individual legal challenges.',
+      'And More...',
     ],
   },
 ]
@@ -172,7 +167,7 @@ export default function Pricing() {
 
         {/* FIY PRICING */}
         <div className="fiy-pricing" id="fiy">
-          <div className="section-header center" style={{marginTop: '5rem'}}>
+          <div className="section-header center" style={{ marginTop: '5rem' }}>
             <div className="section-label">Self-Representation</div>
             <h2 className="pricing-heading">File-It-Yourself (FIY) Support</h2>
             <div className="section-divider center"></div>
@@ -220,9 +215,7 @@ export default function Pricing() {
             Pricing is customized based on your specific needs. Contact us for a detailed quote.
           </p>
           <a
-            href="https://form.jotform.com/242537130855153"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
             className="btn btn-gold"
           >
             Get a Free Quote

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-inner container">
         <div className="footer-logo-area">
-          <img src="/assets/AGJeffJackson_logo.png" alt="Task Force Legal Solutions" />
+          <img src="/assets/999-removebg-preview.png" alt="Task Force Legal Solutions" />
           <div className="footer-logo-text">
             <span className="footer-logo-name">Task Force Legal Solutions</span>
             <span className="footer-logo-sub">Empowering Law Firms and Individuals</span>
