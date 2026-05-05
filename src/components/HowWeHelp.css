@@ -1,0 +1,224 @@
+/* ===== HOW WE HELP ===== */
+.how-section {
+  padding: 6rem 0;
+  background: var(--primary-dark);
+  position: relative;
+}
+
+.how-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(196,161,99,0.35), transparent);
+}
+
+.how-heading {
+  font-size: clamp(1.8rem, 3vw, 2.75rem);
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.how-intro {
+  color: rgba(255,255,255,0.65);
+  max-width: 660px;
+  margin: 1rem auto 0;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.how-intro strong {
+  color: var(--gold);
+}
+
+/* CTA BUTTONS */
+.how-cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2.5rem 0 1rem;
+}
+
+.how-cta-btn {
+  min-width: 220px;
+  justify-content: center;
+}
+
+.how-cta-note {
+  text-align: center;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.82rem;
+  margin-bottom: 3rem;
+}
+
+.how-cta-note strong {
+  color: var(--gold);
+}
+
+/* TABS */
+.how-tabs {
+  margin-bottom: 4rem;
+}
+
+.how-tab-buttons {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid rgba(196,161,99,0.2);
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.how-tab-btn {
+  background: none;
+  border: none;
+  padding: 1rem 1.75rem;
+  color: rgba(255,255,255,0.55);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  letter-spacing: 0.03em;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.how-tab-btn:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+.how-tab-btn.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.how-tab-content {
+  animation: fadeIn 0.35s ease;
+}
+
+.how-tab-panel {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.how-tab-image img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid rgba(196,161,99,0.15);
+  box-shadow: var(--shadow-lg);
+}
+
+.how-tab-text h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 1.25rem;
+}
+
+.how-tab-text p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  font-size: 0.925rem;
+}
+
+.how-tab-text strong {
+  color: var(--white);
+}
+
+.how-benefit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.how-benefit-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: rgba(255,255,255,0.78);
+  font-size: 0.875rem;
+}
+
+.how-benefit-list li::before {
+  content: '→';
+  color: var(--gold);
+  font-weight: 700;
+}
+
+/* TEAM MEMBER CARD */
+.team-member-card {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(196,161,99,0.15);
+  border-left: 4px solid var(--gold);
+  border-radius: 6px;
+  padding: 2.5rem;
+}
+
+.team-member-img img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 4px;
+}
+
+.team-member-info blockquote {
+  font-style: italic;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.8;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+
+.team-member-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.team-member-meta strong {
+  color: var(--gold);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+}
+
+.team-member-meta span {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.8rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .how-tab-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member-card {
+    grid-template-columns: 1fr;
+  }
+
+  .team-member-img img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .how-tab-btn {
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+  }
+}

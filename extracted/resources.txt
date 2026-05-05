@@ -1,0 +1,45 @@
+﻿TITLE: Resources
+SLUG: resources
+
+=== CONTENT ===
+<h1>Resources</h1>				
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>Justia North Carolina Law is a comprehensive resource for state laws, case summaries, and legal updates specific to North Carolina.</p>		
+					<a href="https://law.justia.com/north-carolina/">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>Legal Aid NC offers free legal help for low-income individuals facing civil legal issues, such as housing, family law, and public benefits disputes.</p>		
+					<a href="">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>North Carolina eCourts Portal provides online access to calendar dates, court records, case status, and electronic filings for cases in North Carolina.</p>		
+					<a href="">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>File-It-Yourself Domestic Packetsprovides forms and guidance for family law cases, such as custody, child support, and divorce, in Wake County.is a comprehensive resource for state laws, case summaries, and legal updates specific to North Carolina.</p>		
+					<a href="">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>The North Carolina State Bar offers information on workplace laws, employee rights, and filing complaints for labor violations.</p>		
+					<a href="#">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>The LawHelpNC Online Forms<br />offers free, customizable legal forms for various legal issues, including family law, housing, and estate planning.</p>		
+					<a href="#">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		<p>The NC Judicial Branch offers Pro Se Absolute Divorce Packet to help individuals in Durham County navigate self-representation in divorce cases.</p>		
+					<a href="#">
+									Read More
+					</a>
+					<h5></h5><h4></h4><a href="#"></a>				
+		NC Second ChanceÂ provides guidance on expunging criminal records and understanding eligibility for record clearing in North Carolina		
+					<a href="#">
+									Read More
+					</a>

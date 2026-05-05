@@ -1,0 +1,7 @@
+﻿TITLE: About
+SLUG: about
+
+=== CONTENT ===
+<!-- wp:paragraph -->
+<p>This is an example of a page. Unlike posts, which are displayed on your blogâ€™s front page in the order theyâ€™re published, pages are better suited for more timeless content that you want to be easily accessible, like your About or Contact information. Click the Edit link to make changes to this page or <a title="Direct link to Add New Page in your Dashboard" href="https://wordpress.com/page/235874084/new/">add another page</a>.</p>
+<!-- /wp:paragraph -->

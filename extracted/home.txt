@@ -1,0 +1,379 @@
+﻿TITLE: Home
+SLUG: home
+
+=== CONTENT ===
+<img width="667" height="933" src="https://taskforcelegalsolutions.com/wp-content/uploads/2024/09/benson-removebg.png" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2024/09/benson-removebg.png?w=667&amp;ssl=1 667w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2024/09/benson-removebg.png?resize=214%2C300&amp;ssl=1 214w" sizes="(max-width: 667px) 100vw, 667px" />															
+					        <!-- link opening -->
+                <a href="#support">
+                <!-- end link opening -->
+                    <img width="340" height="351" src="https://taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-1_Paralegal-Support.png" alt="" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-1_Paralegal-Support.png?w=340&amp;ssl=1 340w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-1_Paralegal-Support.png?resize=291%2C300&amp;ssl=1 291w" sizes="(max-width: 340px) 100vw, 340px" />                
+                </a>
+					<h6>LEGAL SOLUTIONS</h6>				
+					<h5>Paralegal Support</h5>				
+					<h2>01</h2>				
+					        <!-- link opening -->
+                <a href="#docs">
+                <!-- end link opening -->
+                    <img width="338" height="350" src="https://taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-2_Document-Review.png" alt="" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-2_Document-Review.png?w=338&amp;ssl=1 338w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-2_Document-Review.png?resize=290%2C300&amp;ssl=1 290w" sizes="(max-width: 338px) 100vw, 338px" />                
+                </a>
+					<h6>100% ACCURACY</h6>				
+					<h5>Document Review</h5>				
+					<h2>02</h2>				
+					        <!-- link opening -->
+                <a href="#prices">
+                <!-- end link opening -->
+                    <img width="340" height="349" src="https://taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-3_Transparent-Pricing.png" alt="" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-3_Transparent-Pricing.png?w=340&amp;ssl=1 340w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-3_Transparent-Pricing.png?resize=292%2C300&amp;ssl=1 292w" sizes="(max-width: 340px) 100vw, 340px" />                
+                </a>
+					<h6>AFFORDABLE RATES</h6>				
+					<h5>Transparent Pricing</h5>				
+					<h2>03</h2>				
+					        <!-- link opening -->
+                <a href="#contact">
+                <!-- end link opening -->
+                    <img width="339" height="347" src="https://taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-4_Schedule-Today.png" alt="" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-4_Schedule-Today.png?w=339&amp;ssl=1 339w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/Box-4_Schedule-Today.png?resize=293%2C300&amp;ssl=1 293w" sizes="(max-width: 339px) 100vw, 339px" />                
+                </a>
+					<h6>FREE CONSULTATION</h6>				
+					<h5>Schedule Today</h5>				
+					<h2>04</h2>				
+															<img width="800" height="788" src="https://taskforcelegalsolutions.com/wp-content/uploads/2025/01/image-1024x1009.png" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/image.png?resize=1024%2C1009&amp;ssl=1 1024w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/image.png?resize=300%2C296&amp;ssl=1 300w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/image.png?resize=768%2C757&amp;ssl=1 768w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2025/01/image.png?w=1142&amp;ssl=1 1142w" sizes="(max-width: 800px) 100vw, 800px" />															
+					<h5><h5 data-elementor-setting-key="title" data-pen-placeholder="Type Here...">Discover Who We Are</h5></h5>				
+					<h2><h2 data-elementor-setting-key="title" data-pen-placeholder="Type Here...">Task Force Legal Solutions</h2></h2>				
+		<p>Task Force Legal Solutions offers expert support to law firms and individuals navigating the judicial system on their own. We provide attorneys with timely and on-demand legal assistance without the overhead of full-time staff through our customized virtual paralegal services. The FIY (File-It-Yourself) solution simplifies the legal process for individuals, providing them with access to legal guidance for self-representation. We resolve the challenges with precision and reliability so that you can focus on achieving results.</p><p><strong>Why Choose Us Over Traditional Staff?</strong></p><ul><li><p><strong>Cost-Effective:</strong>Â Pay only for the services you need, avoiding salary, benefits, and overhead costs.</p></li><li><p><strong>Scalable Support:</strong>Â Access experienced paralegals for small tasks or large caseloads, tailored to your needs.</p></li><li><p><strong>Flexibility:</strong>Â Enjoy the convenience of remote, on-demand services without managing additional employees.</p></li><li><p><strong>Expertise:</strong>Â Benefit from specialized knowledge across multiple legal areas, ensuring high-quality results.</p></li></ul><p>Let Task Force Legal Solutions be your strategic partner for efficiency and excellence.</p>		
+					<h1>Paralegal Services</h1>				
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h1>
+                    Bankruptcy Law                </h1>
+                </a>
+		<ul><li>341 meeting preparation</li><li>Bankruptcy petition preparation</li><li>Client document management</li><li>Docket review and monitoring</li><li>Judgment and lien review</li><li>Proof of claims review</li><li>Trustee and creditor communication</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h1>
+                    Criminal Defense                </h1>
+                </a>
+		<ul><li>Conduct legal research</li><li>Coordinate court preparations</li><li>Draft and proofread motions</li><li>Gather evidence and exhibits</li><li>Investigate case facts/issues</li><li>Interview witnesses/victims</li><li>Support trial and hearings</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                            <h1>
+                    Family Law                </h1>
+                </a>
+		<ul><li>Child support calculations</li><li>Custody agreement drafting</li><li>Discovery request handling</li><li>Divorce case management</li><li>Exhibit preparation</li><li>Financial affidavit preparation</li><li>Legal research and summaries</li><li>Pleading drafting and filing</li><li>Trial preparation assistance</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                            <h1>
+                    Personal Injury                </h1>
+                </a>
+		<ul><li>Client and third-party communication</li><li>Drafting estate planning documents</li><li>Injury-related document preparation</li><li>Medical record review and summaries</li><li>Pleading and affidavit drafting</li><li>Probate petition preparation</li><li>Settlement and claim support</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h3>
+                    Corporate Law                </h3>
+                </a>
+		<ul><li>Compliance filings preparation</li><li>Contract drafting and review</li><li>Corporate and LLC formation</li><li>Due diligence performance</li><li>Governance document management</li><li>Real estate transaction handling</li><li>Template creation and updates</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h3>
+                    Employment Law                </h3>
+                </a>
+		<ul><li>Assist with EEOC filings</li><li>Conduct legal research</li><li>Draft employment contracts</li><li>Investigate workplace claims</li><li>Prepare compliance documents</li><li>Review workplace policies</li><li>Support mediation and hearings</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h3>
+                    Legal Research                </h3>
+                </a>
+		<ul><li>Case law analysis (Westlaw)</li><li>Citation table creation</li><li>Compliance code checks</li><li>Database query management</li><li>eDiscovery search handling</li><li>Legal memo drafting</li><li>Precedent summarization (Casetext)</li><li>Research findings organization</li><li>Secondary source research</li><li>Statutory research tools (LexisNexis)</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                            <h3>
+                    Real Estate Law                </h3>
+                </a>
+		<ul><li>Closing package coordination</li><li>Deed and affidavit preparation</li><li>Document collection and filing</li><li>Eviction proceeding support</li><li>Lease agreement drafting</li><li>Settlement statement preparation</li><li>Title search performance</li></ul>		
+					        <!-- link opening -->
+                <a href="#">
+                <!-- end link opening -->
+                    <img src="" title="" alt="" />                
+                </a>
+					<h2>How can we help you?</h2>				
+		<p>At <strong>Task Force Legal Solutions</strong>, we pride ourselves on delivering professional, reliable, and confidential services. Whether you're an attorney looking for remote paralegal support or an individual needing help with legal filings, we're here to assist you every step of the way.Â </p>		
+					<a href="https://form.jotform.com/242537130855153">
+									Attorney
+					</a>
+					<a href="https://form.jotform.com/242598079415164">
+									Individual
+					</a>
+		<p><strong>*</strong>Click on the corresponding button representing your needs and complete the form to receive your <strong>FREE CONSULTATION</strong>.</p>		
+                        <a href="#collapse-52b2f6f69f12d08819f9" data-ekit-toggle="collapse" data-target="#Collapse-52b2f6f69f12d08819f9" aria-expanded="true" aria-controls="Collapse-52b2f6f69f12d08819f9">
+                            What do we do for Attorneys?
+                                        <!-- Normal Icon -->
+                                        <!-- Active Icon -->
+                                                    </a>
+                            <p>Legal professionals rely on <strong>Task Force Legal Solutions</strong> for comprehensive virtual paralegal support. We specialize in delivering timely and accurate document preparation, legal research, case management, and other essential services. Our mission is to streamline your workload, enabling you to focus on client representation while we handle the administrative and legal support tasks remotely.Â Â </p>                        
+                <!-- .elementskit-card END -->
+                        <a href="#collapse-18caa2269f12d08819f9" data-ekit-toggle="collapse" data-target="#Collapse-18caa2269f12d08819f9" aria-expanded="true" aria-controls="Collapse-18caa2269f12d08819f9">
+                            What do we do for Individuals?
+                                        <!-- Normal Icon -->
+                                        <!-- Active Icon -->
+                                                    </a>
+                            <p>Individuals who require support in preparing and processing paperwork, such as court forms, petitions, or applications, may use our FIY (File-It-Yourself) service assistance. Task Force Legal Solutions does not provide legal advice; instead, we guide you through the appropriate steps to ensure that your legal documents are completed and submitted accurately, making the filing procedure more manageable and accessible.</p>                        
+                <!-- .elementskit-card END -->
+															<img width="685" height="1024" src="https://taskforcelegalsolutions.com/wp-content/uploads/2026/03/image1.png" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/image1.png?w=685&amp;ssl=1 685w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/image1.png?resize=201%2C300&amp;ssl=1 201w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/image1.png?w=1&amp;ssl=1 1w" sizes="(max-width: 685px) 100vw, 685px" />															
+					<h6>"Meet Tina Marie Harvey, Senior Paralegal at Task Force Legal Solutions. Over the past decade, Tina has developed a strong understanding of  the legal profession and has extensive experience in corporate compliance, insurance claims analysis, legal documentation, and policy and procedure implementation. She combines her strategic knowledge and research expertise to provide impactful outcomes. A talented problem-solver with meticulous attention to detail, she provides innovative legal support tailored to clients' needs."</h6>				
+					<h6>Practice Area :  Case Advisory</h6>				
+															<img width="1024" height="1024" src="https://taskforcelegalsolutions.com/wp-content/uploads/2026/03/headshot.jpg" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/headshot.jpg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/headshot.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/headshot.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/headshot.jpg?resize=768%2C768&amp;ssl=1 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															
+															<img width="800" height="534" src="https://taskforcelegalsolutions.com/wp-content/uploads/2026/03/LOJ-AI-Supervision-1024x683.jpg" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/LOJ-AI-Supervision.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/LOJ-AI-Supervision.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/LOJ-AI-Supervision.jpg?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/LOJ-AI-Supervision.jpg?w=1536&amp;ssl=1 1536w" sizes="(max-width: 800px) 100vw, 800px" />															
+															<img width="800" height="800" src="https://taskforcelegalsolutions.com/wp-content/uploads/2026/03/Attormey-Supervision-Provided-Image-1.jpg" alt="" decoding="async" srcset="https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/Attormey-Supervision-Provided-Image-1.jpg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/Attormey-Supervision-Provided-Image-1.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/Attormey-Supervision-Provided-Image-1.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/taskforcelegalsolutions.com/wp-content/uploads/2026/03/Attormey-Supervision-Provided-Image-1.jpg?resize=768%2C768&amp;ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" />															
+					<h2>Attorney Pricing Plans</h2>				
+				                	<h3					class=" elementskit-pricing-title">Tier 1 Plan - Monthly					</h3>
+											<sup>-</sup>
+										15 Hours
+                                                    <ul>
+                        							<li>
+								Hourly rate tailored to straightforward tasks.								
+															</li>
+                        							<li>
+								Document drafting and review (basic forms, contracts, or pleadings).								
+															</li>
+                        							<li>
+								Summaries of legal research.								
+															</li>
+                        							<li>
+								Case file organization and maintenance.								
+															</li>
+                        							<li>
+								Limited client or attorney correspondence support.								
+															</li>
+                        							<li>
+								Assistance with initial court filings and forms.								
+															</li>
+                                            </ul>
+				<a href="https://form.jotform.com/242537130855153" >
+					CONTACT US				</a>
+				                	<h3					class=" elementskit-pricing-title">Tier 2 Plan - Monthly					</h3>
+											<sup>-</sup>
+										30 Hours
+                                                    <ul>
+                        							<li>
+								Includes all Tier 1 services, plus: 								
+															</li>
+                        							<li>
+								E-filing preparation and submission support.								
+															</li>
+                        							<li>
+								Drafting of discovery requests and responses.								
+															</li>
+                        							<li>
+								Assistance with trial preparation (e.g., exhibit indexing, witness outlines)								
+															</li>
+                        							<li>
+								Coordination of case schedules and deadlines.								
+															</li>
+                        							<li>
+								Priority response within 24 hours for urgent requests.								
+															</li>
+                                            </ul>
+				<a href="https://form.jotform.com/242537130855153" >
+					CONTACT US				</a>
+				                	<h3					class=" elementskit-pricing-title">Tier 3 Plan  - Monthly					</h3>
+											<sup>-</sup>
+										50 Hours
+                                                    <ul>
+                        							<li>
+								Includes all Tier 1 and Tier 2 services, plus:								
+															</li>
+                        							<li>
+								Comprehensive case management and workflow support.								
+															</li>
+                        							<li>
+								Drafting of complex legal documents (e.g., motions, briefs).								
+															</li>
+                        							<li>
+								Assistance with e-discovery and document production.								
+															</li>
+                        							<li>
+								Virtual support for depositions, hearings and client meetings								
+															</li>
+                        							<li>
+								Advanced trial preparation with trial binders and exhibit organization.								
+															</li>
+                                            </ul>
+				<a href="https://form.jotform.com/242537130855153" >
+					CONTACT US				</a>
+				                	<h3					class=" elementskit-pricing-title">Top Tier Plan:					</h3>
+								                	<p> Cased-Based Pricing (Long-Term Support)</p>
+                                                    <ul>
+                        							<li>
+								Fully customizable services tailored to your specific needs and caseload.								
+															</li>
+                        							<li>
+								Dedicated paralegal support for ongoing case management and project continuity.								
+															</li>
+                        							<li>
+								Drafting and review of complex legal documents, including motions, briefs, and contracts.								
+															</li>
+                        							<li>
+								Assistance with e-discovery, document production, and trial preparation.								
+															</li>
+                        							<li>
+								Coordination of case schedules, deadlines, and filings.								
+															</li>
+                        							<li>
+								Virtual meeting support, including note-taking and presentation preparation.								
+															</li>
+                        							<li>
+								Priority response with guaranteed same-day turnaround for urgent tasks.								
+															</li>
+                        							<li>
+								Hourly rate adjusted based on caseload volume and the scope of services required.								
+															</li>
+                        							<li>
+								Ideal for attorneys and firms managing fluctuating or high-volume workloads.								
+															</li>
+                                            </ul>
+				<a href="https://form.jotform.com/242537130855153" >
+					CONTACT US				</a>
+					<h2>File-It-Yourself (FIY) Support </h2>				
+				                	<h6					class=" elementskit-pricing-title">Thrive Service - Bankruptcy 					</h6>
+                                                    <ul>
+                        							<li>
+								Comprehensive document preparation and organization for bankruptcy filing.								
+															</li>
+                        							<li>
+								Assistance with bankruptcy forms and schedules.								
+															</li>
+                        							<li>
+								Guidance on filing procedures and post-filing steps.								
+															</li>
+                        							<li>
+								Support with creditor communications and case follow-up.								
+															</li>
+                                            </ul>
+				<a  >
+					Read More				</a>
+				                	<h3					class=" elementskit-pricing-title">Transitions Service - Family					</h3>
+                                                    <ul>
+                        							<li>
+								Preparation and filing of divorce, custody, or child support documents.								
+															</li>
+                        							<li>
+								Drafting agreements and parenting plans.								
+															</li>
+                        							<li>
+								Assistance with financial disclosures and court-required documentation.								
+															</li>
+                        							<li>
+								Case management support and modification request preparation.								
+															</li>
+                                            </ul>
+				<a  >
+					Read More				</a>
+				                	<h3					class=" elementskit-pricing-title">Triumph Service - Traffic 					</h3>
+                                                    <ul>
+                        							<li>
+								Research and guidance for resolving traffic violations or tickets.								
+															</li>
+                        							<li>
+								Preparation of court responses or defense documents.								
+															</li>
+                        							<li>
+								Assistance with filing procedures and representation preparation.								
+															</li>
+                        							<li>
+								Strategies for reducing fines or mitigating penalties								
+															</li>
+                                            </ul>
+				<a  >
+					Read More				</a>
+				                	<h3					class=" elementskit-pricing-title">Top Notch Plan:					</h3>
+								                	<p>Customizable Services Tailored support designed to address unique legal challenges, including:</p>
+                                                    <ul>
+                        							<li>
+								Preparation and filing of divorce, custody, or child support documents.								
+															</li>
+                        							<li>
+								Drafting agreements and parenting plans.								
+															</li>
+                        							<li>
+								Assistance with financial disclosures and court-required documentation.								
+															</li>
+                        							<li>
+								Case management support and modification request preparation.								
+															</li>
+                                            </ul>
+				<a href="#contact" >
+					Read More				</a>
+				                	<h3					class=" elementskit-pricing-title">Top Notch Service - Custom 					</h3>
+                                                    <ul>
+                        							<li>
+								Case law and statutory analysis using advanced legal databases								
+															</li>
+                        							<li>
+								Custom legal memoranda for specific issues or cases								
+															</li>
+                        							<li>
+								Chronological timelines and summaries for medical records in litigation								
+															</li>
+                        							<li>
+								Identification of inconsistencies or key evidence in medical documentation								
+															</li>
+                        							<li>
+								Drafting personalized documents for unique legal matters								
+															</li>
+                        							<li>
+								Assistance with compliance, administrative filings, and niche legal needs								
+															</li>
+                        							<li>
+								Flexible support tailored to individual legal challenges								
+															</li>
+                                            </ul>
+				<a  >
+					Read More				</a>
+		<p>Contact Us:</p><p>Phone : (919) 438-3030</p><p>Email: info@taskforcelegalsolutions.com</p><p>Copyright Â© 2023 <a>Adwocat</a> All rights reserved</p>
