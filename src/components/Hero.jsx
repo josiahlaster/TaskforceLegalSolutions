@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="hero-cards">
             <a href="#support" className="hero-card">
               <div className="hero-card-num">01</div>
-              <img src="/assets/Box-1_Paralegal-Support.png" alt="Paralegal Support" />
+              <img src="assets/Box-1_Paralegal-Support.png" alt="Paralegal Support" />
               <div className="hero-card-text">
                 <span className="hero-card-label">LEGAL SOLUTIONS</span>
                 <h3>Paralegal Support</h3>
@@ -32,7 +32,7 @@ export default function Hero() {
             </a>
             <a href="#docs" className="hero-card">
               <div className="hero-card-num">02</div>
-              <img src="/assets/Box-2_Document-Review.png" alt="Document Review" />
+              <img src="assets/Box-2_Document-Review.png" alt="Document Review" />
               <div className="hero-card-text">
                 <span className="hero-card-label">100% ACCURACY</span>
                 <h3>Document Review</h3>
@@ -40,7 +40,7 @@ export default function Hero() {
             </a>
             <a href="#prices" className="hero-card">
               <div className="hero-card-num">03</div>
-              <img src="/assets/Box-3_Transparent-Pricing.png" alt="Transparent Pricing" />
+              <img src="assets/Box-3_Transparent-Pricing.png" alt="Transparent Pricing" />
               <div className="hero-card-text">
                 <span className="hero-card-label">AFFORDABLE RATES</span>
                 <h3>Transparent Pricing</h3>
@@ -48,7 +48,7 @@ export default function Hero() {
             </a>
             <a href="#contact" className="hero-card">
               <div className="hero-card-num">04</div>
-              <img src="/assets/Box-4_Schedule-Today.png" alt="Schedule Today" />
+              <img src="assets/Box-4_Schedule-Today.png" alt="Schedule Today" />
               <div className="hero-card-text">
                 <span className="hero-card-label">FREE CONSULTATION</span>
                 <h3>Schedule Today</h3>

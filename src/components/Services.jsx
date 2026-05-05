@@ -168,7 +168,7 @@ export default function Services() {
         {/* Attorney Supervision Banner */}
         <div className="attorney-supervision" id="docs">
           <div className="attorney-supervision-images">
-            <img src="/assets/LOJ-AI-Supervision.jpg" alt="Attorney Supervision" />
+            <img src="assets/LOJ-AI-Supervision.jpg" alt="Attorney Supervision" />
           </div>
           <div className="attorney-supervision-text">
             <div className="section-label">Professional Oversight</div>

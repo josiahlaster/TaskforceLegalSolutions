@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-image-col">
           <div className="about-img-stack">
             <img
-              src="/assets/image.png"
+              src="assets/image.png"
               alt="Task Force Legal Solutions"
               className="about-img-main"
             />

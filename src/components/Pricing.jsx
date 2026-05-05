@@ -125,7 +125,7 @@ export default function Pricing() {
           <h2 className="pricing-heading">Attorney Pricing Plans</h2>
           <div className="section-divider center"></div>
           <img
-            src="/assets/Pricing_Plan_Icon-removebg-preview.png"
+            src="assets/Pricing_Plan_Icon-removebg-preview.png"
             alt="Pricing"
             className="pricing-icon-top"
           />
