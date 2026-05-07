@@ -62,11 +62,26 @@
   padding: 1.25rem 1.5rem;
 }
 
-.practice-icon {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
+.practice-icon-wrap {
+  width: 100px;
+  height: 100px;
   flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practice-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.35);
+  transition: transform 0.3s ease;
+}
+
+.practice-card:hover .practice-icon {
+  transform: scale(1.5);
 }
 
 .practice-card-header h3 {

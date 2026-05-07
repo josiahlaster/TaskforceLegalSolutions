@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './Services.css'
 import icon1Img from '../assets/icon1.png'
 import icon2Img from '../assets/icon2.png'
+import icon2RemoveBg from '../assets/icon2-removebg-preview.png'
 import icon3Img from '../assets/icon3.png'
 import icon4Img from '../assets/icon4.png'
 import icon5Img from '../assets/icon5_1.png'
@@ -28,7 +29,7 @@ const practiceAreas = [
   {
     id: 'criminal',
     title: 'Criminal Defense',
-    icon: icon2Img,
+    icon: icon2RemoveBg,
     items: [
       'Conduct legal research',
       'Coordinate court preparations',
@@ -154,7 +155,9 @@ export default function Services() {
               onClick={() => setActiveArea(activeArea === area.id ? null : area.id)}
             >
               <div className="practice-card-header">
-                <img src={area.icon} alt={area.title} className="practice-icon" />
+                <div className="practice-icon-wrap">
+                  <img src={area.icon} alt={area.title} className="practice-icon" />
+                </div>
                 <h3>{area.title}</h3>
                 <span className="practice-toggle">
                   {activeArea === area.id ? '−' : '+'}
