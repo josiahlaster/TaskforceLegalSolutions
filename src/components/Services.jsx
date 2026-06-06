@@ -10,6 +10,7 @@ import icon6Img from '../assets/icon6.png'
 import icon7Img from '../assets/icon7.png'
 import icon8Img from '../assets/icon8.png'
 import attorneySupervisionImg from '../assets/LOJ-AI-Supervision.jpg'
+import ladyJImg from '../assets/ladyJ.jpg'
 
 const practiceAreas = [
   {
@@ -137,6 +138,7 @@ export default function Services() {
   return (
     <section className="services-section" id="support">
       <div className="container">
+        {/* Centered section heading */}
         <div className="section-header center">
           <div className="section-label">What We Offer</div>
           <h2 className="services-heading">Paralegal Services</h2>
@@ -147,34 +149,40 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="practice-grid">
-          {practiceAreas.map((area) => (
-            <div
-              key={area.id}
-              className={`practice-card ${activeArea === area.id ? 'active' : ''}`}
-              onClick={() => setActiveArea(activeArea === area.id ? null : area.id)}
-            >
-              <div className="practice-card-header">
-                <div className="practice-icon-wrap">
-                  <img src={area.icon} alt={area.title} className="practice-icon" />
+        {/* Lady Justice LEFT + cards RIGHT */}
+        <div className="cards-with-lady">
+          <div className="lady-justice-side">
+            <img src={ladyJImg} alt="Lady Justice" className="lady-justice-img" />
+          </div>
+          <div className="practice-grid">
+            {practiceAreas.map((area) => (
+              <div
+                key={area.id}
+                className={`practice-card ${activeArea === area.id ? 'active' : ''}`}
+                onClick={() => setActiveArea(activeArea === area.id ? null : area.id)}
+              >
+                <div className="practice-card-header">
+                  <div className="practice-icon-wrap">
+                    <img src={area.icon} alt={area.title} className="practice-icon" />
+                  </div>
+                  <h3>{area.title}</h3>
+                  <span className="practice-toggle">
+                    {activeArea === area.id ? '−' : '+'}
+                  </span>
                 </div>
-                <h3>{area.title}</h3>
-                <span className="practice-toggle">
-                  {activeArea === area.id ? '−' : '+'}
-                </span>
+                <div className="practice-card-body">
+                  <ul>
+                    {area.items.map((item, i) => (
+                      <li key={i}>
+                        <span className="li-dot"></span>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="practice-card-body">
-                <ul>
-                  {area.items.map((item, i) => (
-                    <li key={i}>
-                      <span className="li-dot"></span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Attorney Supervision Banner */}

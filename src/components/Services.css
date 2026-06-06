@@ -21,19 +21,50 @@
 
 .services-intro {
   color: rgba(255,255,255,0.65);
-  max-width: 560px;
+  max-width: 600px;
   margin: 1rem auto 0;
   line-height: 1.7;
   font-size: 0.95rem;
 }
 
-/* PRACTICE GRID */
-.practice-grid {
+/* CARDS + LADY JUSTICE LAYOUT */
+.cards-with-lady {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: 280px 1fr;
+  gap: 2.5rem;
   align-items: start;
   margin-bottom: 4rem;
+}
+
+.lady-justice-side {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: sticky;
+  top: 2rem;
+}
+
+.lady-justice-img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  filter: drop-shadow(0 10px 30px rgba(196,161,99,0.35));
+  animation: ladyFloat 4s ease-in-out infinite;
+}
+
+@keyframes ladyFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* PRACTICE GRID — 2 columns × 4 rows */
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  align-items: start;
 }
 
 .practice-card {
@@ -193,6 +224,31 @@
 }
 
 /* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .cards-with-lady {
+    grid-template-columns: 220px 1fr;
+  }
+
+  .lady-justice-img {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cards-with-lady {
+    grid-template-columns: 1fr;
+  }
+
+  .lady-justice-side {
+    position: static;
+    justify-content: center;
+  }
+
+  .lady-justice-img {
+    max-width: 200px;
+  }
+}
+
 @media (max-width: 768px) {
   .attorney-supervision {
     grid-template-columns: 1fr;
