@@ -30,7 +30,7 @@ const resources = [
     logo: eCourtsImg,
     description:
       'North Carolina eCourts Portal provides online access to calendar dates, court records, case status, and electronic filings for cases in North Carolina.',
-    url: 'https://www.nccourts.gov/services/electronic-filing',
+    url: 'https://www.nccourts.gov/ecourts',
   },
   {
     id: 'fiypackets',
@@ -38,7 +38,7 @@ const resources = [
     logo: judicialSealImg,
     description:
       'Provides forms and guidance for family law cases, such as custody, child support, and divorce, in Wake County.',
-    url: 'https://www.wakegov.com',
+    url: 'https://www.nccourts.gov/locations/wake-county/file-it-yourself-domestic-packets',
   },
   {
     id: 'ncbar',

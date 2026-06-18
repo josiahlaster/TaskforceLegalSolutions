@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './Pricing.css'
 import fiy1Img from '../assets/fiy1.png'
 import fiy2Img from '../assets/fiy2.png'
@@ -70,45 +71,56 @@ const attorneyPlans = [
 const fiyPlans = [
   {
     id: 'thrive',
-    title: 'Thrive Service',
+    title: 'Thrive Plan',
     subtitle: 'Bankruptcy',
+    practiceArea: 'Bankruptcy Law',
     icon: fiy1Img,
+    rate: '$500 – $750',
     items: [
       'Comprehensive document preparation and organization for bankruptcy filing.',
       'Assistance with bankruptcy forms and schedules.',
       'Guidance on filing procedures and post-filing steps.',
       'Support with creditor communications and case follow-up.',
     ],
+    popupDetails: `Thrive Plan specifically addresses Chapter 7 bankruptcy filings. We prepare all required bankruptcy forms and schedules according to court standards to ensure court compliance. The bankruptcy process is guided step-by-step by our team, from the initial filing to the post-discharge steps. Clients receive assistance with communication with creditors, timely reminders of filing deadlines, and a simplified explanation of bankruptcy. Additionally, we assist with means testing calculations, prepare reaffirmation agreements and assist with filing amendments when needed.`,
   },
   {
     id: 'transitions',
-    title: 'Transitions Service',
+    title: 'Transitions Plan',
     subtitle: 'Family',
+    practiceArea: 'Family Law',
     icon: fiy2Img,
+    rate: '$300 – $500',
     items: [
       'Preparation and filing of divorce, custody, or child support documents.',
       'Drafting agreements and parenting plans.',
       'Assistance with financial disclosures and court-required documentation.',
       'Case management support and modification request preparation.',
     ],
+    popupDetails: `Transitions Plan is customized for each case, including divorce, custody, child support, and other civil proceedings. Preparation of parenting plans, agreements, and child support documents is one of our specialties. Composing and organizing financial disclosures, modifying custody or support agreements, and clarifying court filing processes are all services we offer. Clients can also benefit from aid with absolute divorce filings and case management tools to help them establish documents for self-representation. During the course of their case, clients receive access to educational resources regarding their rights and responsibilities related to family law.`,
   },
   {
     id: 'triumph',
-    title: 'Triumph Service',
+    title: 'Triumph Plan',
     subtitle: 'Traffic',
+    practiceArea: 'Traffic Law',
     icon: fiy3Img,
+    rate: '$75 – $150',
     items: [
       'Research and guidance for resolving traffic violations or tickets.',
       'Preparation of court responses or defense documents.',
       'Assistance with filing procedures and representation preparation.',
       'Strategies for reducing fines or mitigating penalties.',
     ],
+    popupDetails: `Triumph Plan is created to help clients resolve traffic law issues. Our team provides help with drafting court responses or defense statements to contest traffic tickets, as well as step-by-step guidance on filing traffic-related documents. A wide range of services are available, including research-based methods for reducing fines and penalties, explanations of traffic laws relevant to the case, and assistance with electronically filing traffic-related documents. A detailed analysis of tickets or violations to identify potential defenses is also offered as a part of our arrangement for court appearances.`,
   },
   {
     id: 'topnotch',
-    title: 'Top Notch Service',
+    title: 'Top Notch Plan',
     subtitle: 'Custom',
+    practiceArea: 'Small Claims',
     icon: fiy4Img,
+    rate: 'Complex problems, customized solutions based on demand.',
     items: [
       'Case law and statutory analysis using advanced legal databases.',
       'Custom legal memoranda for specific issues or cases.',
@@ -117,10 +129,21 @@ const fiyPlans = [
       'Drafting personalized documents for unique legal matters.',
       'And More...',
     ],
+    popupDetails: `Top Notch Plan handles small claims comprehensively. As part of our services, we assist in the preparation and filing of small claims forms, as well as initiating claims and resolving pre-trial disputes. Our services include organizing evidence, timelines, and supplementary materials for a strong case presentation, guidance on courtroom procedures, and strategies for effective case representation. When landlord-tenant disputes arise, we prepare and file legal eviction documents. A variety of additional services are available to help you with landlord notices, rent demands, and hearing preparation so that you can effectively present evidence and respond to opposing arguments.`,
   },
 ]
 
+const FIY_JOTFORM_URL = 'https://form.jotform.com/242598079415164'
+const RESOURCES_URL = '/resources'
+
+const DISCLAIMER = `Rates reflect only initial costs and are subject to change based on complexity and specific requirements. Filing fees and other associated costs are not included. TASK FORCE LEGAL SOLUTIONS is not a law firm and does not provide legal advice to clients. This service is only intended to provide information and procedural assistance. These terms are acknowledged and accepted when you contract with us.`
+
 export default function Pricing() {
+  const [activePlan, setActivePlan] = useState(null)
+
+  const openModal = (plan) => setActivePlan(plan)
+  const closeModal = () => setActivePlan(null)
+
   return (
     <section className="pricing-section" id="prices">
       <div className="container">
@@ -200,14 +223,12 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="https://form.jotform.com/242598079415164"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <button
                   className="btn btn-outline-gold fiy-cta"
+                  onClick={() => openModal(plan)}
                 >
                   Read More
-                </a>
+                </button>
               </div>
             ))}
           </div>
@@ -227,6 +248,72 @@ export default function Pricing() {
           </a>
         </div>
       </div>
+
+      {/* FIY PLAN MODAL */}
+      {activePlan && (
+        <div
+          className="fiy-modal-overlay"
+          onClick={(e) => { if (e.target === e.currentTarget) closeModal() }}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="fiy-modal-title"
+        >
+          <div className="fiy-modal">
+            {/* Close Button */}
+            <button
+              className="fiy-modal-close"
+              onClick={closeModal}
+              aria-label="Close"
+            >
+              ✕
+            </button>
+
+            {/* Modal Header */}
+            <div className="fiy-modal-header">
+              <img src={activePlan.icon} alt={activePlan.title} className="fiy-modal-icon" />
+              <div>
+                <div className="fiy-modal-label">{activePlan.subtitle} Law</div>
+                <h2 id="fiy-modal-title" className="fiy-modal-title">
+                  {activePlan.title} – {activePlan.practiceArea}
+                </h2>
+                <div className="fiy-modal-rate">
+                  <span className="fiy-modal-rate-label">Rate:</span> {activePlan.rate}
+                </div>
+              </div>
+            </div>
+
+            {/* Divider */}
+            <div className="fiy-modal-divider" />
+
+            {/* Description */}
+            <p className="fiy-modal-description">{activePlan.popupDetails}</p>
+
+            {/* Disclaimer */}
+            <div className="fiy-modal-disclaimer">
+              <strong>Disclaimer:</strong> {DISCLAIMER}
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="fiy-modal-actions">
+              <a
+                href={RESOURCES_URL}
+                className="btn btn-outline-gold fiy-modal-btn"
+                onClick={closeModal}
+              >
+                Resources
+              </a>
+              <a
+                href={FIY_JOTFORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-gold fiy-modal-btn"
+              >
+                Contact Us →
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }
