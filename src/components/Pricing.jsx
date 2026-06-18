@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'  // FIY popup — commented out
 import './Pricing.css'
 import fiy1Img from '../assets/fiy1.png'
 import fiy2Img from '../assets/fiy2.png'
@@ -139,10 +139,9 @@ const RESOURCES_URL = '/resources'
 const DISCLAIMER = `Rates reflect only initial costs and are subject to change based on complexity and specific requirements. Filing fees and other associated costs are not included. TASK FORCE LEGAL SOLUTIONS is not a law firm and does not provide legal advice to clients. This service is only intended to provide information and procedural assistance. These terms are acknowledged and accepted when you contract with us.`
 
 export default function Pricing() {
-  const [activePlan, setActivePlan] = useState(null)
-
-  const openModal = (plan) => setActivePlan(plan)
-  const closeModal = () => setActivePlan(null)
+  // const [activePlan, setActivePlan] = useState(null)  // FIY popup — commented out
+  // const openModal = (plan) => setActivePlan(plan)     // FIY popup — commented out
+  // const closeModal = () => setActivePlan(null)        // FIY popup — commented out
 
   return (
     <section className="pricing-section" id="prices">
@@ -223,12 +222,22 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
+                {/* FIY popup button — commented out
                 <button
                   className="btn btn-outline-gold fiy-cta"
                   onClick={() => openModal(plan)}
                 >
                   Read More
                 </button>
+                */}
+                <a
+                  href="https://form.jotform.com/242598079415164"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-outline-gold fiy-cta"
+                >
+                  Read More
+                </a>
               </div>
             ))}
           </div>
@@ -249,71 +258,7 @@ export default function Pricing() {
         </div>
       </div>
 
-      {/* FIY PLAN MODAL */}
-      {activePlan && (
-        <div
-          className="fiy-modal-overlay"
-          onClick={(e) => { if (e.target === e.currentTarget) closeModal() }}
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="fiy-modal-title"
-        >
-          <div className="fiy-modal">
-            {/* Close Button */}
-            <button
-              className="fiy-modal-close"
-              onClick={closeModal}
-              aria-label="Close"
-            >
-              ✕
-            </button>
-
-            {/* Modal Header */}
-            <div className="fiy-modal-header">
-              <img src={activePlan.icon} alt={activePlan.title} className="fiy-modal-icon" />
-              <div>
-                <div className="fiy-modal-label">{activePlan.subtitle} Law</div>
-                <h2 id="fiy-modal-title" className="fiy-modal-title">
-                  {activePlan.title} – {activePlan.practiceArea}
-                </h2>
-                <div className="fiy-modal-rate">
-                  <span className="fiy-modal-rate-label">Rate:</span> {activePlan.rate}
-                </div>
-              </div>
-            </div>
-
-            {/* Divider */}
-            <div className="fiy-modal-divider" />
-
-            {/* Description */}
-            <p className="fiy-modal-description">{activePlan.popupDetails}</p>
-
-            {/* Disclaimer */}
-            <div className="fiy-modal-disclaimer">
-              <strong>Disclaimer:</strong> {DISCLAIMER}
-            </div>
-
-            {/* CTA Buttons */}
-            <div className="fiy-modal-actions">
-              <a
-                href={RESOURCES_URL}
-                className="btn btn-outline-gold fiy-modal-btn"
-                onClick={closeModal}
-              >
-                Resources
-              </a>
-              <a
-                href={FIY_JOTFORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-gold fiy-modal-btn"
-              >
-                Contact Us →
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
     </section>
+
   )
 }
