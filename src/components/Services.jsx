@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './Services.css'
-import icon1Img from '../assets/icon1.png'
-import icon2Img from '../assets/icon2.png'
-import icon2RemoveBg from '../assets/icon2-removebg-preview.png'
-import icon3Img from '../assets/icon3.png'
-import icon4Img from '../assets/icon4.png'
-import icon5Img from '../assets/icon5_1.png'
-import icon6Img from '../assets/icon6.png'
-import icon7Img from '../assets/icon7.png'
-import icon8Img from '../assets/icon8.png'
+import bankruptcyImg from '../assets/icon9.png'
+import criminalDefenseImg from '../assets/criminalDefense.png'
+import familyLawImg from '../assets/FamilyLaw.png'
+import personalInjuryImg from '../assets/PersonalInjury.png'
+import corporateLawImg from '../assets/CorporateLaw.png'
+import employmentLawImg from '../assets/oldEmploymentLaw.png'
+import legalResearchImg from '../assets/LegalResearch.png'
+import realEstateImg from '../assets/RealEstate.png'
 import attorneySupervisionImg from '../assets/LOJ-AI-Supervision.jpg'
 import ladyJImg from '../assets/ladyJ.jpg'
 
@@ -16,7 +15,7 @@ const practiceAreas = [
   {
     id: 'bankruptcy',
     title: 'Bankruptcy Law',
-    icon: icon1Img,
+    icon: bankruptcyImg,
     items: [
       '341 meeting preparation',
       'Bankruptcy petition preparation',
@@ -30,7 +29,7 @@ const practiceAreas = [
   {
     id: 'criminal',
     title: 'Criminal Defense',
-    icon: icon2RemoveBg,
+    icon: criminalDefenseImg,
     items: [
       'Conduct legal research',
       'Coordinate court preparations',
@@ -44,7 +43,7 @@ const practiceAreas = [
   {
     id: 'family',
     title: 'Family Law',
-    icon: icon3Img,
+    icon: familyLawImg,
     items: [
       'Child support calculations',
       'Custody agreement drafting',
@@ -60,7 +59,7 @@ const practiceAreas = [
   {
     id: 'injury',
     title: 'Personal Injury',
-    icon: icon4Img,
+    icon: personalInjuryImg,
     items: [
       'Client and third-party communication',
       'Drafting estate planning documents',
@@ -74,7 +73,7 @@ const practiceAreas = [
   {
     id: 'corporate',
     title: 'Corporate Law',
-    icon: icon5Img,
+    icon: corporateLawImg,
     items: [
       'Compliance filings preparation',
       'Contract drafting and review',
@@ -88,7 +87,7 @@ const practiceAreas = [
   {
     id: 'employment',
     title: 'Employment Law',
-    icon: icon6Img,
+    icon: employmentLawImg,
     items: [
       'Assist with EEOC filings',
       'Conduct legal research',
@@ -102,7 +101,7 @@ const practiceAreas = [
   {
     id: 'research',
     title: 'Legal Research',
-    icon: icon7Img,
+    icon: legalResearchImg,
     items: [
       'Case law analysis (Westlaw)',
       'Citation table creation',
@@ -119,7 +118,7 @@ const practiceAreas = [
   {
     id: 'realestate',
     title: 'Real Estate Law',
-    icon: icon8Img,
+    icon: realEstateImg,
     items: [
       'Closing package coordination',
       'Deed and affidavit preparation',

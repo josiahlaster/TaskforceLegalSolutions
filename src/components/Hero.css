@@ -207,16 +207,16 @@
   text-transform: uppercase;
 }
 
-.hero-card h3 {
-  font-family: var(--font-heading);
-  font-size: 0.95rem;
-  color: var(--white);
-  font-weight: 600;
+.hero-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+  transition: transform 0.2s ease;
 }
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 900px) {
-  .hero-cards {
+.hero-card:hover img {
+  transform: scale(1.06);
+}
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
@@ -229,8 +229,8 @@
   }
 
   .hero-card img {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
   }
 
   .hero-content {
